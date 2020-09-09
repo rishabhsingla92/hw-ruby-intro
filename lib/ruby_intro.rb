@@ -59,8 +59,6 @@ def binary_multiple_of_4? s
 	
   return true if s.chars.all? {|x| x =~ /[01]/} && s[-2,2]=='00'
 
-
-
 end
 
 # Part 3
